@@ -2,14 +2,24 @@
     "tasks": [
         {
             "type": "cppbuild",
+<<<<<<< HEAD
             "label": "C/C++: gcc.exe build active file",
             "command": "C:\\TDM-GCC-64\\bin\\gcc.exe",
+=======
+            "label": "C/C++: gcc build active file",
+            "command": "/usr/bin/gcc",
+>>>>>>> f6e367914db42e9264f02587421b7779d6397b10
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
+<<<<<<< HEAD
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
+=======
+                "${fileDirname}/${fileBasenameNoExtension}",
+                ""
+>>>>>>> f6e367914db42e9264f02587421b7779d6397b10
             ],
             "options": {
                 "cwd": "${fileDirname}"
